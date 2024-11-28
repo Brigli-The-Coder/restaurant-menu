@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 50vh;
+    margin: 0 auto;
+    width: 70vw;
+    background: url(./7071.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    padding: 10px;
+    width: fit-content;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background: rgb(207,179,161);
+    background: linear-gradient(336deg, rgba(207,179,161,1) 0%, rgba(74,6,1,1) 50%, rgba(171,129,91,1) 100%);
+    padding: 10px 20px;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+.card:hover{
+    background: rgb(207,179,161);
+    background: linear-gradient(336deg, rgba(171,129,91,1) 0%, rgba(74,6,1,1) 50%, rgba(207,179,161,1) 100%);
+}
